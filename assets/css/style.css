@@ -2,7 +2,11 @@
     background-color: #f44336;
     text-align: center;
     margin: 0 auto;
-    max-width: 100%;
+}
+
+.logo {
+    max-width: 250px;
+    max-width: 250px;
     height: auto;
 }
 
