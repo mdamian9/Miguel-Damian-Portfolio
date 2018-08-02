@@ -2,6 +2,8 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border-top: solid;
+    border-width: 1px;
     overflow: hidden;
     background-color: rgb(100, 100, 100);
     color: black;
@@ -21,4 +23,14 @@
 
 .active-page {
     background-color: #f44336;
+}
+
+.md-logo {
+    background-color: #f44336;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.project-title {
+    font-size: 18px;
 }
