@@ -1,3 +1,11 @@
+body {
+    background-image: url("../images/bg-01.jpg");
+}
+
+.w3-container .w3-card .w3-white {
+    background: rgba(255, 255, 255, 0.459);
+}
+
 .md-logo {
     background-color: #f44336;
     text-align: center;
@@ -26,7 +34,7 @@
 }
 
 .nav-link {
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -50,3 +58,54 @@
 .text-center {
     text-align: center;
 }
+
+.nav-component {
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.nav-navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 0.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+    color: #f44336;
+}
+
+.nav-spacer {
+    flex: 1;
+}
+
+.icon-links a:hover {
+    color: #f44336;
+}
+
