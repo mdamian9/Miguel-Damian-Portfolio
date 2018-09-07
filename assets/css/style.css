@@ -2,10 +2,6 @@ body {
     background-image: url("../images/bg-01.jpg");
 }
 
-.w3-container .w3-card .w3-white {
-    background: rgba(255, 255, 255, 0.459);
-}
-
 .md-logo {
     background-color: #f44336;
     text-align: center;
@@ -18,31 +14,9 @@ body {
     height: auto;
 }
 
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border-top: solid;
-    border-width: 1px;
-    overflow: hidden;
-    background-color: rgb(100, 100, 100);
-    color: black;
-}
-
-.nav-item {
-    float: left;
-}
-
-.nav-link {
-    display: flex;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
 .active-page {
-    background-color: #f44336;
+    color: #f44336;
 }
 
 .about-me {
@@ -60,11 +34,14 @@ body {
 }
 
 .nav-component {
-    position: fixed;
     width: 100%;
     height: 55px;
     background: rgba(0, 0, 0, 0.5);
     color: white;
+}
+
+.nav-component i {
+    font-size: 20px; 
 }
 
 .nav-navigation {
