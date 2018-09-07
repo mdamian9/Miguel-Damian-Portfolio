@@ -55,22 +55,16 @@ body {
     text-decoration: none;
     color: white;
 }
-
+.active-page,
 .nav-links a:hover,
-.nav-links a:active {
+.nav-links a:active,
+.icon-links a:hover,
+.w3-container a:hover {
     color: #f44336;
 }
 
 .nav-spacer {
     flex: 1;
-}
-
-.icon-links a:hover {
-    color: #f44336;
-}
-
-.active-page {
-    color: #f44336;
 }
 
 .about-me {
